@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0,0,0,0.2);
+    font-family: "Rubik", sans-serif;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visible {
+    display: flex;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 400;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #31cc98;
+    color: #000;
+    transition: background-color 0.3s esae;
+}
+
+.button:hover {
+    background-color: #31ac83;
+}
+
+.answer-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-gap: 10px;
+}
+
+.answer {
+    width: 100%;
+}
