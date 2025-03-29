@@ -35,13 +35,13 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #31cc98;
-    color: #000;
+    background-color: #2e6fa5;
+    color: #fff;
     transition: background-color 0.3s esae;
 }
 
 .button:hover {
-    background-color: #31ac83;
+    background-color: #204c70;
 }
 
 .answer-list {
@@ -54,4 +54,27 @@ body {
 
 .answer {
     width: 100%;
+}
+
+.answer.active {
+    background-color: orange;
+}
+
+.answer.right {
+    background-color: #31cc98;
+}
+
+.answer .active,
+.answer .right {
+    animation: blink 1s infinite ease-out;
+    border-color: #fff;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
 }
