@@ -3,20 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Квиз-игра</title>
+        <title>Stardew Valley: квиз</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="screen visible">
-        <h2 class="heading">Квиз-игра</h2>
+        <div class="image-title"></div>
+        <h2 class="heading">Stardew Valley: квиз</h2>
         <button type="button" class="start-game button">
             Начать игру
         </button>
         </div>
 
         <div class="screen">
-            <img width="600" src="img/Question_Screen.avif" alt="Фон">
-            <h2 class="heading question">Квиз-игра</h2>
+            <div class="image-screen"></div>
+            <h2 class="heading question">Викторина по Stardew Valley</h2>
 
             <ul class="answer-list">
                 <li>
@@ -32,13 +33,13 @@
                     <button type="button" class="answer button">4</button>
                 </li>
         </ul>
-
         <h2 class="heading">
-            Заработано: <span class="points">0</span>
+            Заработано очков: <span class="points">0</span>
         </h2>
         </div>
 
         <div class="screen">
+        <div class="image-loss"></div>
         <h2 class="heading">Хайдаҕый? Вы проиграли!</h2>
         <button type="button" class="start-game button">
             Начать заново
@@ -46,9 +47,10 @@
         </div>
 
         <div class="screen">
+            <div class="image-win"></div>
             <h2 class="heading">Вы выиграли!</h2>
             <h2>Заработано: <span class="points">0</span></h2>
-            <button type="button" class="start-game button">Начать заново</button>
+            <button type="button" class="start-game button">Повторить игру</button>
         </div>
 
         <script src="script.js"></script>

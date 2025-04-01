@@ -29,6 +29,34 @@ body {
     font-weight: 400;
 }
 
+.image-title {
+    width: 616px;
+    height: 353px;
+    background: url("img/main.jpg") no-repeat;
+    background-position: center;
+}
+
+.image-screen {
+    width: 600px;
+    height: 353px;
+    background: url("img/question.jpg") no-repeat;
+    background-position: center;
+}
+
+.image-loss {
+    width: 600px;
+    height: 353px;
+    background: url("img/loss.jpg") no-repeat;
+    background-position: center;
+}
+
+.image-win {
+    width: 600px;
+    height: 353px;
+    background: url("img/win.jpg") no-repeat;
+    background-position: center;
+}
+
 .button {
     padding: 10px 20px;
     font-size: 16px;
