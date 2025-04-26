@@ -107,7 +107,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
     .screen {
         padding: 20px 5%;
     }
